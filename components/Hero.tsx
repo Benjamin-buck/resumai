@@ -2,7 +2,7 @@ import Button from '@/components/Button';
 
 const Hero = () => {
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center h-[90vh]'>
         <div className='mt-[10rem]'>
             <div className='font-heebo text-center w-[45rem]'>
                 <h2 className='text-[50px] leading-[60px] font-bold'>Boost Resume Performance with the Power of <span className='text-purple'>AI</span>.</h2>

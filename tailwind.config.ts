@@ -12,6 +12,7 @@ const config: Config = {
         'purple': '#8078fb',
         'white': '#FFF',
         'black': '#000',
+        'gray': '#919191',
       },
       fontFamily: {
         patua: ["var(--font-heebo)"],
