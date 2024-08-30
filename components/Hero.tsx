@@ -9,7 +9,7 @@ const Hero = () => {
                 <p className='mt-4'>Employers are using AI tools in their hiring process, why aren't you? Resum<span className='text-purple'>AI</span> is a tool designed to help you beat the employer's AI systems using your real job qualificiations.</p>
                 <div className='mt-8 flex gap-4 justify-center'>
                   <Button label="Get started" href='/signup'/>
-                  <Button label="Learn more" href='/signup' color="white" textColor="purple"/>
+                  <Button label="Learn more" href='/signup' />
                 </div>
             </div>
         </div>

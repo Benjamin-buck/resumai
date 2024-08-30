@@ -4,7 +4,7 @@ interface Props {
     label: String;
     color?: String;
     href: String;
-    textColor: String;
+    textColor?: String;
 }
 
 const Button = ({label, color, href, textColor}: Props) => {
