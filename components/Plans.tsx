@@ -37,7 +37,7 @@ const PlanCard = () => {
  
 const Plans = () => {
   return (
-    <div className='mt-10'> 
+    <div className='md:mt-[100px] sm:mt-[300px] mt-[400px]'> 
         <div className='flex flex-col justify-center items-center'>
             <h2 className='text-[40px] font-semibold'>Choose your right plan!</h2>
             <p>Select from the best plans, ensuring your perfect needs.</p>
