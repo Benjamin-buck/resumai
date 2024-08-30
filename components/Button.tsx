@@ -1,8 +1,15 @@
 import React from 'react'
 
-const Button = () => {
+interface Props {
+    label: String;
+    color?: String;
+    href: String;
+    textColor: String;
+}
+
+const Button = ({label, color, href, textColor}: Props) => {
   return (
-    <button className='bg-purple px-8 py-2 rounded-full text-white'>Log In</button>
+    <a href={href} className={`${color ? 'bg-'+ color : 'bg-purple'} ${textColor ? 'text-' + textColor : 'text-white'} px-8 py-2 rounded-full text-white cursor-pointer `}>{label}</a>
   )
 }
 

@@ -7,12 +7,16 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      'purple': '#8078fb',
-      'white': '#FFF',
-      'black': '#000',
-    },
     extend: {
+      colors: {
+        'purple': '#8078fb',
+        'white': '#FFF',
+        'black': '#000',
+      },
+      fontFamily: {
+        patua: ["var(--font-heebo)"],
+        inter: ["var(--font-inter)"]
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
