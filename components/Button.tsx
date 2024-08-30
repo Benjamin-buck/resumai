@@ -1,10 +1,10 @@
 import React from 'react'
 
 interface Props {
-    label: String;
-    color?: String;
-    href: String;
-    textColor?: String;
+    label: string;
+    color?: string;
+    href: string;
+    textColor?: string;
 }
 
 const Button = ({label, color, href, textColor}: Props) => {

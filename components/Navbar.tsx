@@ -18,9 +18,7 @@ const Navbar = () => {
                 <Button label="Log in" href="/login"/>
                 <Button label="Sign Up" href="/signup" />
             </div>
-
             <RiMenu5Fill className='sm:hidden block text-[30px] text-purple' />
-
         </div>
   )
 }
