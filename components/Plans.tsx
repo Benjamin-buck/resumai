@@ -37,12 +37,12 @@ const PlanCard = () => {
  
 const Plans = () => {
   return (
-    <div className='md:mt-[100px] sm:mt-[300px] mt-[400px]'> 
-        <div className='flex flex-col justify-center items-center'>
-            <h2 className='text-[40px] font-semibold'>Choose your right plan!</h2>
-            <p>Select from the best plans, ensuring your perfect needs.</p>
+    <div className='md:mt-[100px] mt-[50px]'> 
+        <div className='flex flex-col justify-center items-center md:px-0 px-5 text-center '>
+            <h2 className='md:text-[40px] text-[30px] font-semibold text-center'>Choose your right plan!</h2>
+            <p className="">Select from the best plans, ensuring your perfect needs.</p>
         </div>
-        <div className='flex flex-wrap max-md:flex-col max-md:mx-[100px] flex-row justify-center gap-5 mt-10'>
+        <div className='flex flex-wrap max-md:flex-col mx-5 flex-row justify-center gap-5 mt-10'>
             <PlanCard />
             <PlanCard />
             <PlanCard />
