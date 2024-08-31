@@ -4,6 +4,10 @@ export const navLinks = [
     {id: 1, label: 'FAQ', href: '/pricing'},
 ];
 
+export const dashboardLinks = [
+    {id: 1, label: 'Dashboard', href: '/pricing'},
+];
+
 export const plans = [
     {
         id: 1, 

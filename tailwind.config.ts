@@ -10,9 +10,11 @@ const config: Config = {
     extend: {
       colors: {
         'purple': '#8078fb',
+        'lightpurple': '#f8f6ff',
         'white': '#FFF',
         'black': '#000',
         'gray': '#919191',
+        'borderGray': '#e3e3e3',
       },
       fontFamily: {
         patua: ["var(--font-heebo)"],
