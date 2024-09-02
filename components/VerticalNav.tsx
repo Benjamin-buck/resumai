@@ -6,7 +6,7 @@ import { TbLayoutSidebarLeftCollapseFilled } from "react-icons/tb";
 
 const VerticalNav = () => {
   return (
-    <div className="h-[100vh] w-[250px] fixed border-x-[1px] border-borderGray shadow-inner">
+    <div className="h-[100vh] w-[15vw] fixed border-x-[1px] border-borderGray shadow-inner">
       <TbLayoutSidebarLeftCollapseFilled className="absolute top-[0.2rem] right-[0.4rem] text-[24px] text-gray" />
 
       <div className="flex justify-center">

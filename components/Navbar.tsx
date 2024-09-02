@@ -7,7 +7,10 @@ const Navbar = () => {
   return (
     <div className="sm:px-[100px] px-8 py-5  flex justify-between items-center">
       <h1 className="text-3xl font-bold font-heebo">
-        RESUM<span className="text-purple">AI</span>
+        RESUM
+        <span className="text-white pl-1 pr-2 py-1 text-md rounded-xl ml-1 bg-purple">
+          AI
+        </span>
       </h1>
       <div>
         <ul className="md:flex gap-8 hidden">
