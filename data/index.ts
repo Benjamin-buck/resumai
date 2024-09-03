@@ -1,3 +1,5 @@
+import { MdSpaceDashboard } from "react-icons/md";
+
 export const navLinks = [
     {id: 1, label: 'Demo', href: '/pricing'},
     {id: 1, label: 'Pricing', href: '#pricing'},
@@ -5,7 +7,9 @@ export const navLinks = [
 ];
 
 export const dashboardLinks = [
-    {id: 1, label: 'Dashboard', href: '/pricing'},
+    {id: 1, label: 'Dashboard', href: '/pricing', icon: 'MdSpaceDashboard', },
+    {id: 2, label: "Resumes", href: '/resume', icon: 'MdSpaceDashboard'},
+    {id: 2, label: "Cover Letters", href: '/resume', icon: 'MdSpaceDashboard'},
 ];
 
 export const plans = [
