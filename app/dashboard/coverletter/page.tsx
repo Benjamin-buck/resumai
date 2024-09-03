@@ -13,7 +13,9 @@ const page = () => {
   return (
     <>
       <VerticalNav />
-      <ProfileMenu />
+      <div className="relative left-[15%] w-[85%]">
+        <ProfileMenu />
+      </div>
     </>
   );
 };

@@ -7,9 +7,9 @@ export const navLinks = [
 ];
 
 export const dashboardLinks = [
-    {id: 1, label: 'Dashboard', href: '/pricing', icon: 'MdSpaceDashboard', },
-    {id: 2, label: "Resumes", href: '/resume', icon: 'MdSpaceDashboard'},
-    {id: 2, label: "Cover Letters", href: '/resume', icon: 'MdSpaceDashboard'},
+    {id: 1, label: 'Dashboard', href: '/dashboard/home', icon: '/icons/dashboard.png', },
+    {id: 2, label: "Resumes", href: '/resume', icon: '/icons/resume.png'},
+    {id: 2, label: "Cover Letters", href: '/dashboard/coverletter', icon: '/icons/document.png'},
 ];
 
 export const plans = [

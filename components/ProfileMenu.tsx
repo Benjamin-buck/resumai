@@ -5,7 +5,7 @@ import { PiBellRinging } from "react-icons/pi";
 
 const ProfileMenu = () => {
   return (
-    <div className=" bg-white flex justify-between items-center">
+    <div className=" bg-white flex justify-between items-center border-b-[1px] border-gray-1">
       <input
         type="text"
         className="py-2 px-5 my-2 border-[1px] border-lightpurple mx-5 rounded-xl"

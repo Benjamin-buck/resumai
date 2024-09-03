@@ -13,9 +13,11 @@ const config: Config = {
         'lightpurple': '#f8f6ff',
         'white': '#FFF',
         'black': '#000',
-        'gray': '#919191',
-        'lightgray': '#e6e6e6',
-        'borderGray': '#e3e3e3',
+        'gray': {
+          1 : '#e3e3e3',
+          3 : '#e6e6e6',
+          2 : '#919191',
+        },
       },
       fontFamily: {
         patua: ["var(--font-heebo)"],

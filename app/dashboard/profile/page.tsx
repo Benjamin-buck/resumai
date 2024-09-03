@@ -9,7 +9,7 @@ const page = () => {
     <>
       <VerticalNav />
 
-      <div className="absolute left-[250px] h-[20000px] w-[86vw] text-black bg-lightpurple">
+      <div className="absolute left-[15%] h-[20000px] w-[85vw] text-black ">
         <ProfileMenu />
         <div className="px-[350px] py-10">
           <h1 className="text-3xl font-bold">
