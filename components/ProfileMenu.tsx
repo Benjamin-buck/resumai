@@ -13,10 +13,7 @@ const ProfileMenu = () => {
       />
       <div className="px-4 flex gap-4 flex-row-reverse items-center">
         <BsChevronDown className="cursor-pointer" />
-        <Link
-          href="/dashboard/profile"
-          className="font-semibold cursor-pointer"
-        >
+        <Link href="/profile" className="font-semibold cursor-pointer">
           Benjamin Buck
         </Link>
         <img src="/profile.jpg" className="rounded-full h-10" alt="Profile" />

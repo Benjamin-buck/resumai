@@ -7,10 +7,7 @@ import React from "react";
 const page = () => {
   return (
     <>
-      <VerticalNav />
-
-      <div className="absolute left-[15%] h-[20000px] w-[85vw] text-black ">
-        <ProfileMenu />
+      <div className=" text-black ">
         <div className="px-[350px] py-10">
           <h1 className="text-3xl font-bold">
             My <span className="text-purple">Profile</span>

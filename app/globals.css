@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 .gradient {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(180,175,255,0.2637429971988795) 100%);
@@ -12,3 +17,10 @@
 .gradient-black {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.2637429971988795) 100%);
 }
+
+@layer utilities {
+    .left_sidebar {
+      @apply sticky left-0 top-0 flex w-fit flex-col  justify-between  border-none max-md:hidden lg:w-[270px] ;
+    }
+}
+

@@ -1,17 +1,15 @@
 import Button from "@/components/Button";
 import { navLinks } from "@/data";
+import Image from "next/image";
 import Link from "next/link";
 import { RiMenu5Fill } from "react-icons/ri";
 
 const Navbar = () => {
   return (
     <div className="sm:px-[100px] px-8 py-5  flex justify-between items-center">
-      <h1 className="text-3xl font-bold font-heebo">
-        RESUM
-        <span className="text-white pl-1 pr-2 py-1 text-md rounded-xl ml-1 bg-purple">
-          AI
-        </span>
-      </h1>
+      <Link href="/">
+        <img src="/logo.png" alt="logo" className="h-[30px]" />
+      </Link>
       <div>
         <ul className="md:flex gap-8 hidden">
           {navLinks.map(({ href, label, id }) => (
