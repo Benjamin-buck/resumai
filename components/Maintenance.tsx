@@ -2,7 +2,7 @@ import React from "react";
 
 const Maintenance = () => {
   return (
-    <div className="flex justify-center items-center h-screen flex-col">
+    <div className="flex justify-center items-center h-screen flex-col text-center">
       <img src="/logo.png" alt="" />
       <h1 className="text-3xl">
         We are currently under development and are expected to launch soon!

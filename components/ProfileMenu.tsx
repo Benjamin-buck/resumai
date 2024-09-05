@@ -5,13 +5,13 @@ import { PiBellRinging } from "react-icons/pi";
 
 const ProfileMenu = () => {
   return (
-    <div className=" bg-white flex justify-between items-center border-b-[1px] border-gray-1">
-      <input
+    <div className=" bg-white flex justify-end items-center ">
+      {/* <input
         type="text"
         className="py-2 px-5 my-2 border-[1px] border-lightpurple mx-5 rounded-xl"
         placeholder="Search..."
-      />
-      <div className="px-4 flex gap-4 flex-row-reverse items-center">
+      /> */}
+      <div className="px-4 flex py-3 gap-4 flex-row-reverse items-center">
         <BsChevronDown className="cursor-pointer" />
         <Link href="/profile" className="font-semibold cursor-pointer">
           Benjamin Buck

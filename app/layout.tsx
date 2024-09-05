@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Heebo } from "next/font/google";
+import ConvexClerkProvider from "./providers/ConvexClerkProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 const heebo = Heebo({
@@ -21,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${heebo.variable}`}>{children}</body>
+      <body className={`${inter.className} ${heebo.variable}`}>
+        <ConvexClerkProvider>{children}</ConvexClerkProvider>
+      </body>
     </html>
   );
 }

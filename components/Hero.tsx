@@ -1,6 +1,9 @@
 import Button from '@/components/Button';
+import { useGSAP } from '@gsap/react'
 
 const Hero = () => {
+
+  useGSAP(())
   return (
     <div className='flex justify-center h-[90vh] md:px-5'>
         <div className='mt-[10rem]'>

@@ -24,8 +24,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="gap-3 sm:flex hidden">
-        <Button label="Log in" href="/dashboard" />
-        <Button label="Sign Up" href="/signup" />
+        <Button label="Log in" href="/home" />
+        <Button label="Sign Up" href="/home" />
       </div>
       <RiMenu5Fill className="sm:hidden block text-[30px] text-purple" />
     </div>

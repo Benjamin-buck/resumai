@@ -10,6 +10,7 @@ export const dashboardLinks = [
     {id: 1, label: 'Dashboard', href: '/home', icon: '/icons/dashboard.png', },
     {id: 2, label: "Resumes", href: '/resume', icon: '/icons/resume.png'},
     {id: 2, label: "Cover Letters", href: '/coverletter', icon: '/icons/document.png'},
+    {id: 2, label: "Job Board", href: '/job-board', icon: '/icons/job.png'},
 ];
 
 export const plans = [
