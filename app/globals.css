@@ -20,7 +20,7 @@
 
 @layer utilities {
     .left_sidebar {
-      @apply sticky left-0 top-0 flex w-fit flex-col  justify-between  border-none max-md:hidden lg:w-[270px] ;
+      @apply sticky left-0 top-0 flex w-fit flex-col  justify-between  border-none max-md:hidden lg:w-[230px] ;
     }
 }
 

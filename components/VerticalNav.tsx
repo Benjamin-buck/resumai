@@ -12,7 +12,7 @@ const VerticalNav = () => {
   const router = useRouter();
   return (
     <section className="left_sidebar">
-      <nav className="flex flex-col gap-6 h-[100%] border-gray-1 border-r ">
+      <nav className="flex flex-col  h-[100%] border-gray-1 border-r ">
         <Link
           href="/"
           className="mt-6 ml-12 flex gap-1 pb-10 max-lg:justify-center cursor-pointer items-center"
@@ -26,7 +26,7 @@ const VerticalNav = () => {
             <Link
               href={href}
               key={id}
-              className={`px-10 py-5 flex items-center gap-2 ${
+              className={`px-10 py-2 flex items-center gap-2 ${
                 isActive && "gradient border-r-[6px] border-purple shadow-inner"
               }`}
             >

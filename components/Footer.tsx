@@ -1,4 +1,6 @@
+import { navLinks } from "@/data";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -12,24 +14,42 @@ const Footer = () => {
             hassle of drafting hundreds of resumes and cover letters.
           </p>
         </div>
-        <div>
-          <ul>
-            <li>Test</li>
-          </ul>
-          <ul>
-            <li>Test</li>
-          </ul>
-          <ul>
-            <li>Test</li>
-          </ul>
-          <ul>
-            <li>Test</li>
-          </ul>
-          <ul>
-            <li>Test</li>
-          </ul>
+        <div className="flex justify-around w-[60%]">
+          <div className="flex flex-col">
+            <h3 className="font-bold text-xl">Support</h3>
+            {navLinks.map(({ href, label, id }) => (
+              <Link href={href} id={id} className="py-1 ">
+                {label}
+              </Link>
+            ))}
+          </div>
+          <div className="flex flex-col">
+            <h3 className="font-bold text-xl">Legal</h3>
+            {navLinks.map(({ href, label, id }) => (
+              <Link href={href} id={id} className="py-1 ">
+                {label}
+              </Link>
+            ))}
+          </div>
+          <div className="flex flex-col">
+            <h3 className="font-bold text-xl">Navigation</h3>
+            {navLinks.map(({ href, label, id }) => (
+              <Link href={href} id={id} className="py-1 ">
+                {label}
+              </Link>
+            ))}
+          </div>
+          <div className="flex flex-col">
+            <h3 className="font-bold text-xl">Navigation</h3>
+            {navLinks.map(({ href, label, id }) => (
+              <Link href={href} id={id} className="py-1 ">
+                {label}
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
+
       <div className="py-2 text-white  text-sm bg-purple w-full">
         <h1 className="mx-[100px]">2024 resumai.net | All Rights Reserved </h1>
       </div>
